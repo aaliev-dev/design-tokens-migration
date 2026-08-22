@@ -1,0 +1,1259 @@
+{
+  "$description": "Mapping from old (v1.0.4) to new (DTCG) design variables — final manual mapping",
+  "$generatedAt": "2026-08-22",
+  "$source": "schema-linker.html DEFAULT_LINKS (44 L0 + 186 L1 = 230 total)",
+  "summary": {
+    "layer1_primitives": {
+      "name": ".Base colors → .Product",
+      "total": 44
+    },
+    "layer2_semantic": {
+      "name": "Context colors → Theme",
+      "total": 186
+    }
+  },
+  "confidentMappings": {
+    "layer1_primitives": [
+      {
+        "old": ".Base colors/Gray/0",
+        "new": ".Product/Gray/0",
+        "confidence": "confirmed",
+        "oldHex": null,
+        "newHex": null
+      },
+      {
+        "old": ".Base colors/Gray/10",
+        "new": ".Product/Gray/10",
+        "confidence": "confirmed",
+        "oldHex": "#F6F6F6",
+        "newHex": "#EAEBEC"
+      },
+      {
+        "old": ".Base colors/Gray/100",
+        "new": ".Product/Gray/100",
+        "confidence": "confirmed",
+        "oldHex": null,
+        "newHex": null
+      },
+      {
+        "old": ".Base colors/Gray/20",
+        "new": ".Product/Gray/20",
+        "confidence": "confirmed",
+        "oldHex": "#E4E4E4",
+        "newHex": "#C6C9CD"
+      },
+      {
+        "old": ".Base colors/Gray/30",
+        "new": ".Product/Gray/30",
+        "confidence": "confirmed",
+        "oldHex": "#D2D2D2",
+        "newHex": "#B3B8BD"
+      },
+      {
+        "old": ".Base colors/Gray/40",
+        "new": ".Product/Gray/40",
+        "confidence": "confirmed",
+        "oldHex": "#C0C0C0",
+        "newHex": "#A3A9AF"
+      },
+      {
+        "old": ".Base colors/Gray/50",
+        "new": ".Product/Gray/50",
+        "confidence": "confirmed",
+        "oldHex": "#A4A4A4",
+        "newHex": "#9299A0"
+      },
+      {
+        "old": ".Base colors/Gray/60",
+        "new": ".Product/Gray/60",
+        "confidence": "confirmed",
+        "oldHex": "#7F7F7F",
+        "newHex": "#808790"
+      },
+      {
+        "old": ".Base colors/Gray/70",
+        "new": ".Product/Gray/70",
+        "confidence": "confirmed",
+        "oldHex": "#5B5B5B",
+        "newHex": "#6D757E"
+      },
+      {
+        "old": ".Base colors/Gray/80",
+        "new": ".Product/Gray/80",
+        "confidence": "confirmed",
+        "oldHex": "#3D3D3D",
+        "newHex": "#565C62"
+      },
+      {
+        "old": ".Base colors/Gray/90",
+        "new": ".Product/Gray/90",
+        "confidence": "confirmed",
+        "oldHex": "#1F1F1F",
+        "newHex": "#26292C"
+      },
+      {
+        "old": ".Base colors/Orange/0",
+        "new": ".Product/Orange/0",
+        "confidence": "confirmed",
+        "oldHex": "#FDF9F2",
+        "newHex": "#FFF9F0"
+      },
+      {
+        "old": ".Base colors/Orange/10",
+        "new": ".Product/Orange/10",
+        "confidence": "confirmed",
+        "oldHex": "#F5E2C1",
+        "newHex": "#FFDFB2"
+      },
+      {
+        "old": ".Base colors/Orange/100",
+        "new": ".Product/Orange/100",
+        "confidence": "confirmed",
+        "oldHex": "#803D00",
+        "newHex": "#542300"
+      },
+      {
+        "old": ".Base colors/Orange/20",
+        "new": ".Product/Orange/20",
+        "confidence": "confirmed",
+        "oldHex": "#EECB92",
+        "newHex": "#FFC16B"
+      },
+      {
+        "old": ".Base colors/Orange/30",
+        "new": ".Product/Orange/30",
+        "confidence": "confirmed",
+        "oldHex": "#E5B460",
+        "newHex": "#FFB247"
+      },
+      {
+        "old": ".Base colors/Orange/40",
+        "new": ".Product/Orange/40",
+        "confidence": "confirmed",
+        "oldHex": "#DE9E33",
+        "newHex": "#FFA424"
+      },
+      {
+        "old": ".Base colors/Orange/50",
+        "new": ".Product/Orange/50",
+        "confidence": "confirmed",
+        "oldHex": "#D58500",
+        "newHex": "#FF9500"
+      },
+      {
+        "old": ".Base colors/Orange/60",
+        "new": ".Product/Orange/60",
+        "confidence": "confirmed",
+        "oldHex": "#C77901",
+        "newHex": "#F08400"
+      },
+      {
+        "old": ".Base colors/Orange/70",
+        "new": ".Product/Orange/70",
+        "confidence": "confirmed",
+        "oldHex": "#B76C01",
+        "newHex": "#E07400"
+      },
+      {
+        "old": ".Base colors/Orange/80",
+        "new": ".Product/Orange/80",
+        "confidence": "confirmed",
+        "oldHex": "#A85F01",
+        "newHex": "#C76300"
+      },
+      {
+        "old": ".Base colors/Orange/90",
+        "new": ".Product/Orange/90",
+        "confidence": "confirmed",
+        "oldHex": "#985201",
+        "newHex": "#8A4000"
+      },
+      {
+        "old": ".Base colors/Product Primary/0",
+        "new": ".Product/Product Primary/0",
+        "confidence": "confirmed",
+        "oldHex": "#F7FBF8",
+        "newHex": "#F1F8F3"
+      },
+      {
+        "old": ".Base colors/Product Primary/10",
+        "new": ".Product/Product Primary/10",
+        "confidence": "confirmed",
+        "oldHex": "#D9ECDE",
+        "newHex": "#D3E8DA"
+      },
+      {
+        "old": ".Base colors/Product Primary/100",
+        "new": ".Product/Product Primary/100",
+        "confidence": "confirmed",
+        "oldHex": "#22482C",
+        "newHex": "#0F1E12"
+      },
+      {
+        "old": ".Base colors/Product Primary/20",
+        "new": ".Product/Product Primary/20",
+        "confidence": "confirmed",
+        "oldHex": "#BEDFC6",
+        "newHex": "#A8D2B5"
+      },
+      {
+        "old": ".Base colors/Product Primary/30",
+        "new": ".Product/Product Primary/30",
+        "confidence": "confirmed",
+        "oldHex": "#A2D0AD",
+        "newHex": "#90C6A1"
+      },
+      {
+        "old": ".Base colors/Product Primary/40",
+        "new": ".Product/Product Primary/40",
+        "confidence": "confirmed",
+        "oldHex": "#84C193",
+        "newHex": "#78BA8D"
+      },
+      {
+        "old": ".Base colors/Product Primary/50",
+        "new": ".Product/Product Primary/50",
+        "confidence": "confirmed",
+        "oldHex": null,
+        "newHex": null
+      },
+      {
+        "old": ".Base colors/Product Primary/60",
+        "new": ".Product/Product Primary/60",
+        "confidence": "confirmed",
+        "oldHex": "#5B9F6B",
+        "newHex": "#519F63"
+      },
+      {
+        "old": ".Base colors/Product Primary/70",
+        "new": ".Product/Product Primary/70",
+        "confidence": "confirmed",
+        "oldHex": "#4E8C5D",
+        "newHex": "#438453"
+      },
+      {
+        "old": ".Base colors/Product Primary/80",
+        "new": ".Product/Product Primary/80",
+        "confidence": "confirmed",
+        "oldHex": "#42794F",
+        "newHex": "#376C44"
+      },
+      {
+        "old": ".Base colors/Product Primary/90",
+        "new": ".Product/Product Primary/90",
+        "confidence": "confirmed",
+        "oldHex": "#366642",
+        "newHex": "#24472C"
+      },
+      {
+        "old": ".Base colors/Red/0",
+        "new": ".Product/Red/0",
+        "confidence": "confirmed",
+        "oldHex": "#FFF1ED",
+        "newHex": "#FEF6F5"
+      },
+      {
+        "old": ".Base colors/Red/10",
+        "new": ".Product/Red/10",
+        "confidence": "confirmed",
+        "oldHex": "#FFDBD0",
+        "newHex": "#FDD6CE"
+      },
+      {
+        "old": ".Base colors/Red/100",
+        "new": ".Product/Red/100",
+        "confidence": "confirmed",
+        "oldHex": "#812000",
+        "newHex": "#571205"
+      },
+      {
+        "old": ".Base colors/Red/20",
+        "new": ".Product/Red/20",
+        "confidence": "confirmed",
+        "oldHex": "#FFC2AF",
+        "newHex": "#F99D8B"
+      },
+      {
+        "old": ".Base colors/Red/30",
+        "new": ".Product/Red/30",
+        "confidence": "confirmed",
+        "oldHex": "#FFA78B",
+        "newHex": "#F78169"
+      },
+      {
+        "old": ".Base colors/Red/40",
+        "new": ".Product/Red/40",
+        "confidence": "confirmed",
+        "oldHex": "#FF8B65",
+        "newHex": "#F56447"
+      },
+      {
+        "old": ".Base colors/Red/50",
+        "new": ".Product/Red/50",
+        "confidence": "confirmed",
+        "oldHex": "#F67247",
+        "newHex": "#F44725"
+      },
+      {
+        "old": ".Base colors/Red/60",
+        "new": ".Product/Red/60",
+        "confidence": "confirmed",
+        "oldHex": "#E66237",
+        "newHex": "#E7320D"
+      },
+      {
+        "old": ".Base colors/Red/70",
+        "new": ".Product/Red/70",
+        "confidence": "confirmed",
+        "oldHex": "#D55126",
+        "newHex": "#D02C0B"
+      },
+      {
+        "old": ".Base colors/Red/80",
+        "new": ".Product/Red/80",
+        "confidence": "confirmed",
+        "oldHex": "#C93F12",
+        "newHex": "#B8270A"
+      },
+      {
+        "old": ".Base colors/Red/90",
+        "new": ".Product/Red/90",
+        "confidence": "confirmed",
+        "oldHex": "#B53106",
+        "newHex": "#881D07"
+      }
+    ],
+    "layer2_semantic": [
+      {
+        "old": "Context colors/Stroke/Icons/Product_icon:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Product_icon:Hovered",
+        "new": "Theme/Accent/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Product_icon:Pressed",
+        "new": "Theme/Accent/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Tertiary:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Tertiary:Hovered",
+        "new": "Theme/Accent/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Tertiary:Pressed",
+        "new": "Theme/Accent/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Secondary_green:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Link:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Link:Hovered",
+        "new": "Theme/Accent/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Link:Pressed",
+        "new": "Theme/Accent/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Error_link:Pressed",
+        "new": "Theme/Error/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Main_button:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Main_button:Hovered",
+        "new": "Theme/Accent/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Main_button:Pressed",
+        "new": "Theme/Accent/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Dividers/Item_divider_green:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Buttons/Secondary_red:Default",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Buttons/Secondary_green:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Inputs/Error_input:Default",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_knob_on:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_plate_off:Disabled",
+        "new": "Theme/Background/System/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_plate_on:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_plate_on:Disabled",
+        "new": "Theme/Accent/Additional/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_plate_on:Inactive",
+        "new": "Theme/Neutral/Light/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_plate_off:Default",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_plate_off:Disabled",
+        "new": "Theme/Background/System/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/PrimaryStat:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/RedStat:Default",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Scale/Scale:red",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Scale/Scale:green",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Loaders/Primary:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Page_background:Default",
+        "new": "Theme/Background/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Page_background:Hovered",
+        "new": "Theme/Background/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Page_background:Pressed",
+        "new": "Theme/Background/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Page_background_additional:Hovered",
+        "new": "Theme/Background/Additional/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Page_background_additional:Pressed",
+        "new": "Theme/Background/Additional/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Dialog_background:Default",
+        "new": "Theme/Special/Static Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Cards_background:Default",
+        "new": "Theme/Background/Elevated/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Page_background_additional:Default",
+        "new": "Theme/Background/Additional/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Inputs/Input_background:Default",
+        "new": "Theme/Background/Additional/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Inputs/Input_background:Disabled",
+        "new": "Theme/Background/Additional/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Inputs/Input_on_card_backgroung:Default",
+        "new": "Theme/Background/Additional/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Inputs/Input_on_card_backgroung:Disabled",
+        "new": "Theme/Background/Additional/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Snacks/Mobile_snacks:Default",
+        "new": "Theme/Neutral/Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Snacks/Mobile_snacks:Hover",
+        "new": "Theme/Neutral/Black/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Snacks/Desktop_snacks:Default",
+        "new": "Theme/Background/Additional/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Snacks/Desktop_snacks:Hover",
+        "new": "Theme/Background/Additional/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Snacks/Desktop_snacks:Pressed",
+        "new": "Theme/Background/Additional/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Secondary button:Default",
+        "new": "Theme/Background/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Secondary button:Hovered",
+        "new": "Theme/Background/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Secondary button:Pressed",
+        "new": "Theme/Background/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Secondary_card_button:Default",
+        "new": "Theme/Background/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Secondary_card_button:Hovered",
+        "new": "Theme/Background/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Attention_button:Default",
+        "new": "Theme/Attention/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Attention_button:Hovered",
+        "new": "Theme/Attention/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Attention_button:Pressed",
+        "new": "Theme/Attention/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Attention_button:Disabled",
+        "new": "Theme/Attention/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Danger_button:Default",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Danger_button:Hovered",
+        "new": "Theme/Error/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Danger_button:Pressed",
+        "new": "Theme/Error/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Danger_button:Disabled",
+        "new": "Theme/Error/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_knob_on:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_knob_on:Inactive",
+        "new": "Theme/Neutral/Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_knob_on:InactiveDisabled",
+        "new": "Theme/Neutral/Dark/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_knob_off:Default",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_knob_off:Disabled",
+        "new": "Theme/Neutral/Light/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_plate_on:Default",
+        "new": "Theme/Accent/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_plate_on:Disabled",
+        "new": "Theme/Accent/Blend/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_plate_on:Inactive",
+        "new": "Theme/Neutral/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_plate_on:InactiveDisabled",
+        "new": "Theme/Neutral/Blend/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/Android/Switch_plate_off:Default",
+        "new": "Theme/Neutral/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_knob:Default",
+        "new": "Theme/Special/Static White/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_knob:Disabled",
+        "new": "Theme/Special/Static White/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/IOS/Switch_plate_on:InactiveDisabled",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Logo_key_color:Default",
+        "new": "Theme/Neutral/Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/System/Android_system_bar:default",
+        "new": "Theme/Background/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Logo_white_color:Default",
+        "new": "Theme/Special/Static White/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Menus/Dropdown_menu_background:Default",
+        "new": "Theme/Background/Elevated/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Ships/Blend_Chip:Default",
+        "new": "Theme/Accent/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Notifications/Attention:Default",
+        "new": "Theme/Attention/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Toplines/AdBlocker:Default",
+        "new": "Theme/Special/Static Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Ships/Blend_Chip:Hovered",
+        "new": "Theme/Accent/Blend/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Ships/Blend_Chip:Pressed",
+        "new": "Theme/Accent/Blend/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Ships/Blend_Chip:Disabled",
+        "new": "Theme/Accent/Blend/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_base:Default",
+        "new": "Theme/Background/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/SecondaryStat:Default",
+        "new": "Theme/Additional/Violet/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request:minor:Pressed",
+        "new": "Theme/Background/Additional/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_minor:Default",
+        "new": "Theme/Background/Additional/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_base:Pressed",
+        "new": "Theme/Background/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Footer:Default",
+        "new": "Theme/Special/Static Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Snacks/Mobile_snacks:Pressed",
+        "new": "Theme/Neutral/Black/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Secondary_card_button:Pressed",
+        "new": "Theme/Background/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Main_button:Default_Inactive",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Buttons/Main_button:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/PrimaryStat:Disabled",
+        "new": "Theme/Success/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_allowlisted:Default",
+        "new": "Theme/Accent/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_allowlisted:Hovered",
+        "new": "Theme/Success/Blend/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_allowlisted:Pressed",
+        "new": "Theme/Success/Blend/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_changed:Default",
+        "new": "Theme/Attention/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_changed:Hovered",
+        "new": "Theme/Attention/Blend/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_changed:Pressed",
+        "new": "Theme/Attention/Blend/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_blocked:Default",
+        "new": "Theme/Error/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_blocked:Hovered",
+        "new": "Theme/Error/Blend/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Recent Activity/Request_blocked:Pressed",
+        "new": "Theme/Error/Blend/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/SecondaryStat:Disabled",
+        "new": "Theme/Additional/Violet/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/TertiaryStat:Default",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/TertiaryStat:Disabled",
+        "new": "Theme/Neutral/Light/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/RedStat:Disabled",
+        "new": "Theme/Error/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/OrangeStat: Default",
+        "new": "Theme/Attention/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/OrangeStat: Disabled",
+        "new": "Theme/Attention/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Scale/Scale:orange",
+        "new": "Theme/Attention/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Menus/Dropdown_menu_background:Hovered",
+        "new": "Theme/Background/Elevated/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Backgrounds/Popup_background:Default",
+        "new": "Theme/Background/Elevated/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Stats/Stats_Background:Default",
+        "new": "Theme/Neutral/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Loaders/Background:Default",
+        "new": "Theme/Neutral/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Menus/Dropdown_menu_background:Pressed",
+        "new": "Theme/Background/Elevated/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Cards/Cards_background_tertiary:Default",
+        "new": "Theme/Accent/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_on:Default",
+        "new": "Theme/Accent/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_off:Default",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_on:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_off:Disabled",
+        "new": "Theme/Neutral/Light/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_on:Hovered",
+        "new": "Theme/Success/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Loaders/Background_dark:Default",
+        "new": "Theme/Neutral/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_off:Hovered",
+        "new": "Theme/Neutral/Light/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_on:InactiveDefault",
+        "new": "Theme/Neutral/Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_off:InactiveHovered",
+        "new": "Theme/Neutral/Light/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_off:InactiveDisabled",
+        "new": "Theme/Neutral/Light/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_knob:Default",
+        "new": "Theme/Background/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Fills/Switch/DNS&ADG/Switch_knob:Disabled",
+        "new": "Theme/Background/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Main text/Main:Default",
+        "new": "Theme/Neutral/Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Main text/Main:Disabled",
+        "new": "Theme/Neutral/Black/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Footer/Footer_text:Default",
+        "new": "Theme/Special/Static White/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Footer/Footer_text:Disabled",
+        "new": "Theme/Special/Static White/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Description/Description:Default",
+        "new": "Theme/Neutral/Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Description/Description:Disabled",
+        "new": "Theme/Neutral/Dark/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Lables/Labels:Default",
+        "new": "Theme/Neutral/Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Lables/Labels:Disabled",
+        "new": "Theme/Neutral/Dark/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Placeholder/Placeholder:Default",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Placeholder/Placeholder:Disabled",
+        "new": "Theme/Neutral/Light/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Breadcrumbs:Default",
+        "new": "Theme/Neutral/Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Primary:Default",
+        "new": "Theme/Special/Static White/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Primary:Disabled",
+        "new": "Theme/Special/Static White/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Danger_primary:Disabled",
+        "new": "Theme/Special/Static White/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Attention_primary:Disabled",
+        "new": "Theme/Special/Static White/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Secondary:Default",
+        "new": "Theme/Neutral/Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Secondary:Disabled",
+        "new": "Theme/Neutral/Black/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Purchase:Default",
+        "new": "Theme/Neutral/Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Purchase:Disabled",
+        "new": "Theme/Neutral/Black/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Tertiary:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Secondary_red:Default",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Secondary_red:Disabled",
+        "new": "Theme/Error/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Buttons/Secondary_green:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Link:Visited",
+        "new": "Theme/Additional/Auqa/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Link:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Attention_link:Default",
+        "new": "Theme/Attention/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Attention_link:Hovered",
+        "new": "Theme/Attention/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Attention_link:Pressed",
+        "new": "Theme/Attention/Main/Pressed",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Attention_link:Visited",
+        "new": "Theme/Additional/Pink/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Attention_link:Disabled",
+        "new": "Theme/Attention/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Error_link:Default",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Error_link:Hovered",
+        "new": "Theme/Error/Main/Hover",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Error_link:Visited",
+        "new": "Theme/Additional/Violet/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Links/Error_link:Disabled",
+        "new": "Theme/Error/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Toplines/Main:Default",
+        "new": "Theme/Background/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Text/Toplines/Main:Disabled",
+        "new": "Theme/Background/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Error_icon:Default",
+        "new": "Theme/Error/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Error_icon:Disabled",
+        "new": "Theme/Error/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Attention_icon:Default",
+        "new": "Theme/Attention/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Attention_icon:Disabled",
+        "new": "Theme/Attention/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Product_icon:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/White_icons:Default",
+        "new": "Theme/Special/Static White/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/White_icons:Disabled",
+        "new": "Theme/Special/Static White/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Dividers/Item_divider:Default",
+        "new": "Theme/Neutral/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Dividers/Item_divider:Disabled",
+        "new": "Theme/Neutral/Blend/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Dividers/Item_divider_orange:Default",
+        "new": "Theme/Attention/Main/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Gray_icons:Default",
+        "new": "Theme/Neutral/Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Buttons/Secondary:Default",
+        "new": "Theme/Neutral/Dark/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Buttons/Secondary:Disabled",
+        "new": "Theme/Neutral/Dark/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Buttons/Secondary_red:Disabled",
+        "new": "Theme/Error/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Buttons/Secondary_green:Disabled",
+        "new": "Theme/Accent/Main/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Inputs/Inactive_Input_stroke:Default",
+        "new": "Theme/Neutral/Blend/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Inputs/Inactive_Input_stroke:Disabled",
+        "new": "Theme/Neutral/Blend/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Inputs/Active_Input_stroke:Default",
+        "new": "Theme/Neutral/Light/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Gray_icons:Disabled",
+        "new": "Theme/Neutral/Dark/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Inputs/Active_Input_stroke:Disabled",
+        "new": "Theme/Neutral/Light/Disabled",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Black_icons:Default",
+        "new": "Theme/Neutral/Black/Default",
+        "confidence": "confirmed"
+      },
+      {
+        "old": "Context colors/Stroke/Icons/Black_icons:Disabled",
+        "new": "Theme/Neutral/Black/Disabled",
+        "confidence": "confirmed"
+      }
+    ]
+  }
+}
